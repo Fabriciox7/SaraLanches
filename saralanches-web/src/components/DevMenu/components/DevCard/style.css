@@ -1,0 +1,90 @@
+.dev-card {
+    padding: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    height: 115px;
+    width: 240px;
+    overflow: hidden;
+    display: flex;
+}
+
+.dev-picture {
+    border-radius: 15px 0px 0px 15px;
+    flex-basis: 115px;
+    width: 115px;
+    max-width: 115px;
+}
+
+.dev-info {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    align-items: left;
+    text-align: left;
+    margin: 13px 0px 0px 13px;
+}
+
+.dev-name {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 21px;
+    color: var(--color-text-title);
+}
+
+.dev-title {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 16px;
+    color: var(--color-text-complement);
+    margin-top: 5px;
+}
+
+.dev-github {
+    flex-basis: 40px;
+    display: block;
+    max-height: 30px;
+    padding: 8px;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: var(--color-secundary);
+    border-radius: 20px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 14px;
+    margin-top: 13px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.dev-github:hover {
+    background: var(--color-secundary-dark);
+}
+
+
+@media(max-width: 30rem) {
+    .dev-info {
+        flex-basis: 140px;
+        height: 100%;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .dev-card {
+        border-radius: 15px;
+        height: 115px;
+        width: 370px;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .dev-github {
+        margin-right: 5px;
+    }
+}

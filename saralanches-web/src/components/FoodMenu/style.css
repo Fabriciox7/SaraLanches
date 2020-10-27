@@ -1,0 +1,27 @@
+#food-menu {
+    position: relative;
+    flex-basis: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.food-card {
+    margin-top: 15px;
+}
+
+@media(max-width: 60rem) {
+    #food-menu {
+        padding: 5px;
+    }
+}
+
+@media(max-width: 52rem) {
+    #food-menu {
+        justify-content: center;
+    }
+}

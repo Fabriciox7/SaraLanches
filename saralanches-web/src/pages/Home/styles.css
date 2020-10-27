@@ -1,0 +1,156 @@
+:root {
+    --background-blur: blur(6px);
+    --logo-drop-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#page-home {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+#page-home-content {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+
+#page-home .presentation {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 760px;
+    align-items: center;
+    text-align: center;
+}
+
+#page-home .presentation .background-image {
+    position: absolute;
+    width: 100%;
+    height: 808px;
+    z-index: -1;
+    background-image: url("../../assets/images/home-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: var(--background-blur);
+    -webkit-filter: var(--background-blur);
+    -moz-filter: var(--background-blur);
+    -o-filter: var(--background-blur);
+    -ms-filter: var(--background-blur);
+    top: -42px;
+    overflow: hidden;
+}
+
+#page-home .presentation .logo {
+    margin-top: 100px;
+    filter: var(--logo-drop-shadow);
+    -webkit-filter: var(--logo-drop-shadow);
+    -moz-filter: var(--logo-drop-shadow);
+    -o-filter: var(--logo-drop-shadow);
+    -ms-filter: var(--logo-drop-shadow);
+}
+
+#page-home .presentation p {
+    width: 320px;
+    margin-top: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 29px;
+}
+
+#page-home .presentation .cta-buttom {
+    margin-top: 20px;
+    display: block;
+    background: var(--color-cta);
+    border-radius: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 41px;
+    text-align: center;
+    padding: 5px 100px 5px 100px;
+}
+
+#page-home .presentation .cta-buttom:hover {
+    background: var(--color-cta-dark);
+}
+
+#page-home .presentation .cta-buttom:active {
+    background: var(--color-cta-light);
+}
+
+#page-home .presentation .link {
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 29px;
+    text-align: center;
+    text-decoration-line: underline;
+    overflow: hidden;
+}
+
+.page-home-food-menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-basis: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.page-home-food-menu h1 {
+    color: var(--color-primary);
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 21px;
+    margin: 20px;
+    flex-basis: 100%;
+}
+
+.page-home-food-menu-separator {
+    top: -5px;
+    flex-basis: 100%;
+    height: 15px;
+    background: var(--color-primary);
+}
+
+@media(max-width: 64rem) {
+    #page-home,
+    #page-home .presentation {
+        height: 100vh;
+    }
+    .page-home-food-menu {
+        display: none;
+    }
+}
+
+@media(max-width: 26rem) {
+    #page-home .presentation .logo {
+        width: 282px;
+        height: 282px;
+        margin-bottom: 50px;
+    }
+}

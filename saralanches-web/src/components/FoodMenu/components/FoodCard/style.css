@@ -1,0 +1,102 @@
+.food-card {
+    padding: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    height: 115px;
+    width: 400px;
+    overflow: hidden;
+    display: flex;
+}
+
+.food-picture {
+    border-radius: 15px 0px 0px 15px;
+    flex-basis: 115px;
+    width: 115px;
+    max-width: 115px;
+}
+
+.food-info {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 180px;
+    height: 100%;
+    align-items: left;
+    text-align: left;
+    margin: 13px 0px 0px 13px;
+}
+
+.food-name {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 21px;
+    color: var(--color-text-title);
+}
+
+.food-price {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 16px;
+    color: var(--color-text-complement);
+    margin-top: 5px;
+}
+
+.food-description {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 14px;
+    color: var(--color-text-base);
+    margin-top: 7px;
+}
+
+.food-buy-buttom {
+    flex-basis: 100px;
+    display: block;
+    height: 35px;
+    padding: 10px;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: var(--color-secundary);
+    border-radius: 20px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 14px;
+    margin-top: 70px;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 13px;
+}
+
+.food-buy-buttom:hover {
+    background: var(--color-secundary-dark);
+}
+
+
+@media(max-width: 30rem) {
+    .food-info {
+        flex-basis: 140px;
+        height: 100%;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .food-card {
+        border-radius: 15px;
+        height: 115px;
+        width: 370px;
+        overflow: hidden;
+        display: flex;
+    }
+
+    .food-buy-buttom {
+        margin-right: 5px;
+    }
+}

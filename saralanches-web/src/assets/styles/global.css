@@ -1,0 +1,72 @@
+:root {
+    --color-background: #fcf8f8;
+  
+    --color-primary-lighter: #A66565;
+    --color-primary-light: #995D5D;
+    --color-primary: #803B3B;
+    --color-primary-dark: #592828;
+    --color-primary-darker: #4D2323;
+  
+    --color-secundary: #CC5E5E;
+    --color-secundary-dark: #8C4141;
+
+    --color-cta-light: #418C56;
+    --color-cta: #3B804E;
+    --color-cta-dark: #2F663F;
+  
+    --color-title-in-primary: #ffffff;
+  
+    --color-text-in-primary: #fcf8f8;
+    --color-text-title: #803B3B;
+    --color-text-complement: #A6A3A3;
+    --color-text-base: #803b3b7c;
+  
+    --color-line-in-white: #f0dcdc;
+  
+    --color-input-background: #fcf8f8;
+  
+    --color-button-text: #ffffff;
+  
+    --color-box-base: #ffffff;
+    --color-box-footer: #f6eaea;
+  
+    font-size: 60%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  
+    box-sizing: border-box;
+  }
+  
+  body {
+      background: var(--color-background);
+  }
+  
+  #root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body,
+  input,
+  button,
+  select,
+  textarea {
+    font: 500 1.6rem Lato;
+    color: var(--color-text-base);
+  }
+  
+  .container {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 1440px;
+  }
+  
+  @media(min-width: 700px) {
+    :root {
+      font-size: 62.5%;
+    }
+  }

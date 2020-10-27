@@ -1,0 +1,52 @@
+{
+    "foods": [
+      {
+        "_id": "5f931ea3e96cd304d4558953",
+        "name": "Pasteis",
+        "link_picture": "https://i.pinimg.com/236x/57/df/6d/57df6d554b2a1029f555569109145eee.jpg",
+        "price": 5,
+        "description": "Pastel de frango, carne, queijo e presunto",
+        "__v": 0
+      },
+      {
+        "_id": "5f9320aee96cd304d4558954",
+        "name": "Coxinha",
+        "link_picture": "https://i.pinimg.com/236x/7d/79/1f/7d791f7be9722f468099080bb7cfbadc.jpg",
+        "price": 5,
+        "description": "Coxinha de frango com catupiry",
+        "__v": 0
+      },
+      {
+        "_id": "5f9338c92a401612c4bc3dd1",
+        "name": "Hamburguer de Frango",
+        "link_picture": "https://i.pinimg.com/236x/72/d5/f1/72d5f1f6200b3ef6afd9b7087c06140b.jpg",
+        "price": 10,
+        "description": "Hamburguer feito na hora com peito de Frango, Salada e requeijão",
+        "__v": 0
+      },
+      {
+        "_id": "5f931ea3e96cd304d4548953",
+        "name": "Pasteis",
+        "link_picture": "https://i.pinimg.com/236x/57/df/6d/57df6d554b2a1029f555569109145eee.jpg",
+        "price": 5,
+        "description": "Pastel de frango, carne, queijo e presunto",
+        "__v": 0
+      },
+      {
+        "_id": "5f9320aee96cd304d4458954",
+        "name": "Coxinha",
+        "link_picture": "https://i.pinimg.com/236x/7d/79/1f/7d791f7be9722f468099080bb7cfbadc.jpg",
+        "price": 5,
+        "description": "Coxinha de frango com catupiry",
+        "__v": 0
+      },
+      {
+        "_id": "5f9338c92a401612c4bc4dd1",
+        "name": "Hamburguer de Frango",
+        "link_picture": "https://i.pinimg.com/236x/72/d5/f1/72d5f1f6200b3ef6afd9b7087c06140b.jpg",
+        "price": 10,
+        "description": "Hamburguer feito na hora com peito de Frango, Salada e requeijão",
+        "__v": 0
+      }
+    ]
+  }

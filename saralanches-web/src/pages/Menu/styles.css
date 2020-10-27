@@ -1,0 +1,55 @@
+#page-food-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+#page-food-menu .page-food-menu-top {
+    background: var(--color-secundary);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-basis: 100%;
+}
+
+#page-food-menu .presentation .back-button {
+    position: absolute;
+    display: block;
+    left: 40px;
+    top: 31px;
+    margin: 10px;
+}
+
+#page-food-menu .page-food-menu-top>img {
+    position: absolute;
+    left: 50%;
+    margin-left: -45px;
+    margin-top: 40px;
+}
+
+#page-food-menu .food-menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    flex-basis: 100%;
+    margin-top: 90px;
+}
+
+#page-food-menu .food-menu-container h1 {
+    color: var(--color-primary);
+    display: block;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 21px;
+    flex-basis: 100%;
+}
+
+@media(max-width: 66rem) {
+    #page-food-menu {
+        max-width: 100vw;
+    }
+}
