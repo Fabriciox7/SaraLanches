@@ -23,3 +23,7 @@
 ### Admin
 
 ![Admin](UML-005%20-%20Diagramas%20de%20Sequência%20-%20Admin.png)
+
+## Modelagem de Dados
+
+![Modelagem de Dados](UML-006%20-%20Modelagem%20de%20Dados.png)

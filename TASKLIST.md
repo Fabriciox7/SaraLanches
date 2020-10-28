@@ -52,18 +52,18 @@
 
 ## Execução
 
- - [ ] Modelagem
+ - [X] Modelagem
    - [X] UML
-   - [ ] Modelagem de Dados
-   - [ ] Design de Páginas
+   - [X] Modelagem de Dados
+   - [X] Design de Páginas
 
- - [ ] Site institucional
+ - [X] Site institucional
  
  - [X] Identidade Visual
    - [X] Cores
    - [X] Logo
  
- - [ ] Cardápio
+ - [X] Cardápio
  - [ ] Ala Administrativa
    - [ ] Login
    - [ ] Visão de Pratos
@@ -71,5 +71,5 @@
    - [ ] Deletar Pratos
    - [ ] Editar Pratos
  
- - [ ] Página "Sobre"
- - [ ] Serviço de Pedidos
+ - [X] Página "Sobre"
+ - [X] Serviço de Pedidos

@@ -45,3 +45,25 @@ Foram definidas a sequência de tarefas que deverão ser feitas. A lista de spri
 
 ### UML
 Para um desenvolvimento mais consiso e melhor orientado foram feitos diagramas em UML que facilitariam a visualização do funcionamento e das funcionalidades do sistema. Esses diagramas são apresentados no documento de [UML](DOC-010%20-%20UML.md) (DOC-010).
+
+### Modelagem de Dados
+Nessa fase é definido como será o banco de dados e quais valores serão armazenados. Para simplificar a modelagem do protótipo foi utilizada também a UML. A modelagem se encontra descrita do documento de [Modelagem de Dados](UML-006%20-%20Modelagem%20de%20Dados.png) (UML-006), para fins de praticidade a descrição também foi adicionada ao documento de [UML](DOC-010%20-%20UML.md) (DOC-010).
+
+## Execução // Monitoramento
+
+### Front End
+  - Identidade visual: Escolha de Cores e produção de Logo (Esta pode ser encontrada no protótipo e no [repositório github](https://github.com/Fabriciox7/SaraLanches) do projeto)
+  - Design de Páginas: Foi utilizado o Figma para o desgin de páginas. O Design do protótipo esta no documento de [Desgin de Páginas](DOC-011%20-%20Design%20Page.fig) (DOC-011)
+  - Prototipagem UI: Execução do planejamento UML juntamente com o Design de Páginas
+
+### Back End
+  - Product Requests: Sistema que permite requisições externas para a API
+  - Sistema de Usuários: Sistema de usuários que servirá para o sistema de Login
+  - Testes de Requisição: Realizar testes para validar as requisições da API
+
+### Finalização do protótipo
+  - Conexão com a API: Contectar o Frontend com o Backend
+  - Testes UI/UX: Realizar testes com usuários
+
+## Entrega
+Essa fase compõe a entrega do projeto final, assim como uma apresentação do mesmo. Uma visualização do protótipo produzido neste projeto pode ser encontrada em [https://saralanches-webview.vercel.app/](https://saralanches-webview.vercel.app/) e a documentação da api produzida pode ser encontrada em [https://backend-saralanches.herokuapp.com/docs/](https://backend-saralanches.herokuapp.com/docs/).
