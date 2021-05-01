@@ -4,6 +4,9 @@
   <p>Projeto criado na disciplina de <b>Engenharia de Software</b> do curso de <i>Engenharia de Computação</i> da Universidade Federal do Ceará - Campus Sobral. O <a href="./documentation/DOC-000 - Relatório.md">Relatório de Processos</a> e outros documentos pertinentes se encontram na pasta <a href="./documentation"><code>/documentation</code></a>.</p>
 </p>
 
+<h3>Protótipo</h3>
+<p>Uma visualização do protótipo produzido neste projeto pode ser encontrada em https://saralanches-webview.vercel.app/ e a documentação da api produzida pode ser encontrada em https://backend-saralanches.herokuapp.com/docs/.</p>
+
 <h2 align="center">Autores</h2>
 <table>
   <tr>
